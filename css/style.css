@@ -1,0 +1,51 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+#special-container {
+    width: 920px;
+    height: 420px;
+    margin: auto;
+}
+
+#slider-btn-prev {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#slider-btn-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.main-container {
+    position: relative;
+}
+
+.main-container .my-button {
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.imgs-container {
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+.imgs-container > img {
+    width: 90px;
+    display: block;
+    opacity: 0.2;
+}
+  
+img.active {
+    opacity: 1;
+}
